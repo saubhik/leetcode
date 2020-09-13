@@ -166,7 +166,7 @@ class SolutionFour:
         ans = []
 
         def dfs(
-            path: List[int] = None, node: int = 1, path_sum: int = 0, path_len: int = 0
+            path: List[int] = None, node: int = 0, path_sum: int = 0, path_len: int = 0
         ):
             if path is None:
                 path = []
@@ -178,10 +178,10 @@ class SolutionFour:
             if path_sum > n or path_len > k:
                 return
 
-            for child_node in range(node, 10):
+            for child_node in range(node + 1, 10):
                 dfs(
                     path=path + [child_node],
-                    node=child_node + 1,
+                    node=child_node,
                     path_sum=path_sum + child_node,
                     path_len=path_len + 1,
                 )
