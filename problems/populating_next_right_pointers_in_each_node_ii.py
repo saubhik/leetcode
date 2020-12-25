@@ -1,7 +1,7 @@
-# Definition for a Node.
 from unittest import TestCase
 
 
+# Definition for a Node.
 class Node:
     def __init__(
         self,
