@@ -1,4 +1,5 @@
 from unittest import TestCase
+from collections import OrderedDict
 
 
 class Solution:
@@ -34,14 +35,51 @@ class Solution:
         return ans
 
 
+class SolutionTwo:
+    # Sliding Window using Ordered Dict of rightmost indices.
+    # Time Complexity: O(n)
+    # Space Complexity: O(1) additional space.
+    def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
+        ans = 0
+
+        if not s or not k:
+            return ans
+
+        left = right = 0
+        rightmost_index = OrderedDict()
+
+        while right < len(s):
+            if s[right] in rightmost_index:
+                del rightmost_index[s[right]]
+
+            rightmost_index[s[right]] = right
+
+            if len(rightmost_index) <= k:
+                right += 1
+            else:
+                left = rightmost_index.popitem(last=False)[1] + 1
+
+            ans = max(ans, right - left)
+
+        return ans
+
+
 class TestLengthOfLongestSubstringKDistinct(TestCase):
     def test_example_1(self):
         assert (
             Solution().lengthOfLongestSubstringKDistinct(s="eceba", k=2) == 3
         )
+        assert (
+            SolutionTwo().lengthOfLongestSubstringKDistinct(s="eceba", k=2)
+            == 3
+        )
 
     def test_example_2(self):
         assert Solution().lengthOfLongestSubstringKDistinct(s="aa", k=1) == 2
+        assert (
+            SolutionTwo().lengthOfLongestSubstringKDistinct(s="aa", k=1) == 2
+        )
 
     def test_example_3(self):
         assert Solution().lengthOfLongestSubstringKDistinct(s="a", k=2) == 1
+        assert SolutionTwo().lengthOfLongestSubstringKDistinct(s="a", k=2) == 1
