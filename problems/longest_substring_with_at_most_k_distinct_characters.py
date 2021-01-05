@@ -66,19 +66,12 @@ class SolutionTwo:
 
 class TestLengthOfLongestSubstringKDistinct(TestCase):
     def test_example_1(self):
-        assert (
-            Solution().lengthOfLongestSubstringKDistinct(s="eceba", k=2) == 3
-        )
-        assert (
-            SolutionTwo().lengthOfLongestSubstringKDistinct(s="eceba", k=2)
-            == 3
-        )
+        assert Solution().lengthOfLongestSubstringKDistinct(s="eceba", k=2) == 3
+        assert SolutionTwo().lengthOfLongestSubstringKDistinct(s="eceba", k=2) == 3
 
     def test_example_2(self):
         assert Solution().lengthOfLongestSubstringKDistinct(s="aa", k=1) == 2
-        assert (
-            SolutionTwo().lengthOfLongestSubstringKDistinct(s="aa", k=1) == 2
-        )
+        assert SolutionTwo().lengthOfLongestSubstringKDistinct(s="aa", k=1) == 2
 
     def test_example_3(self):
         assert Solution().lengthOfLongestSubstringKDistinct(s="a", k=2) == 1

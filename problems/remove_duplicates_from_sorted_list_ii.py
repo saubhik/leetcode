@@ -1,10 +1,8 @@
+from unittest import TestCase
 from typing import Optional
 
 
 # Definition for singly-linked list.
-from unittest import TestCase
-
-
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
