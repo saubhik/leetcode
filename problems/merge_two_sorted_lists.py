@@ -46,12 +46,15 @@ class TestMergeTwoLists(TestCase):
         return values
 
     def test_example_1(self):
-        assert self._get_values(
-            Solution().mergeTwoLists(
-                l1=self._make_list(values=[1, 2, 4]),
-                l2=self._make_list(values=[1, 3, 4]),
+        assert (
+            self._get_values(
+                Solution().mergeTwoLists(
+                    l1=self._make_list(values=[1, 2, 4]),
+                    l2=self._make_list(values=[1, 3, 4]),
+                )
             )
-        ) == [1, 1, 2, 3, 4, 4]
+            == [1, 1, 2, 3, 4, 4]
+        )
 
     def test_example_2(self):
         assert (
@@ -64,15 +67,23 @@ class TestMergeTwoLists(TestCase):
         )
 
     def test_example_3(self):
-        assert self._get_values(
-            Solution().mergeTwoLists(
-                l1=self._make_list(values=[]), l2=self._make_list(values=[0]),
+        assert (
+            self._get_values(
+                Solution().mergeTwoLists(
+                    l1=self._make_list(values=[]),
+                    l2=self._make_list(values=[0]),
+                )
             )
-        ) == [0]
+            == [0]
+        )
 
     def test_example_4(self):
-        assert self._get_values(
-            Solution().mergeTwoLists(
-                l1=self._make_list(values=[-9, 3]), l2=self._make_list(values=[5, 7]),
+        assert (
+            self._get_values(
+                Solution().mergeTwoLists(
+                    l1=self._make_list(values=[-9, 3]),
+                    l2=self._make_list(values=[5, 7]),
+                )
             )
-        ) == [-9, 3, 5, 7]
+            == [-9, 3, 5, 7]
+        )

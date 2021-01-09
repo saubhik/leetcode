@@ -14,7 +14,7 @@ class Solution:
     # Time Complexity: O(|V|).
     # Space Complexity: O(log|V|) or O(|V|) in worst case.
     def getTargetCopy(
-            self, original: TreeNode, cloned: TreeNode, target: TreeNode
+        self, original: TreeNode, cloned: TreeNode, target: TreeNode
     ) -> TreeNode:
         def _dfs(node: TreeNode):
             if not node or node.val == target.val:
@@ -29,7 +29,7 @@ class SolutionTwo:
     # Time Complexity: O(|V|).
     # Space Complexity: O(log|V|) or O(|V|) in worst case.
     def getTargetCopy(
-            self, original: TreeNode, cloned: TreeNode, target: TreeNode
+        self, original: TreeNode, cloned: TreeNode, target: TreeNode
     ) -> TreeNode:
         def _dfs(original_node: TreeNode, cloned_node: TreeNode):
             if not original_node or original_node is target:
@@ -59,10 +59,10 @@ class TestGetTargetCopy(TestCase):
         expected = clone.right
 
         assert (
-                Solution().getTargetCopy(original=root, cloned=clone, target=target)
-                is expected
+            Solution().getTargetCopy(original=root, cloned=clone, target=target)
+            is expected
         )
         assert (
-                Solution().getTargetCopy(original=root, cloned=clone, target=target)
-                is expected
+            Solution().getTargetCopy(original=root, cloned=clone, target=target)
+            is expected
         )

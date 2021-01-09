@@ -5,7 +5,7 @@ from unittest import TestCase
 class Solution:
     """
     Breadth First Search.
-    
+
     100,-23,-23,404,100,23,23,23,3,404
     Once considered we will not reconsider a node.
 

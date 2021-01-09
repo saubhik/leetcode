@@ -11,8 +11,7 @@ class TreeNode:
 
 class Codec:
     def serialize(self, root: TreeNode) -> str:
-        """Encodes a tree to a single string.
-        """
+        """Encodes a tree to a single string."""
         # Straight Forward BFS.
         if root is None:
             return ""
@@ -32,8 +31,7 @@ class Codec:
         return ans
 
     def deserialize(self, data: str) -> Optional[TreeNode]:
-        """Decodes your encoded data to tree.
-        """
+        """Decodes your encoded data to tree."""
         root = None
         if data == "":
             return root

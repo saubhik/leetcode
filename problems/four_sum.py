@@ -27,7 +27,9 @@ class Solution:
 
             for i in range(pos, n):
                 recurse(
-                    pos=i + 1, target=target - nums[i], curr=curr + [nums[i]],
+                    pos=i + 1,
+                    target=target - nums[i],
+                    curr=curr + [nums[i]],
                 )
 
         recurse(pos=0, target=target, curr=[])
