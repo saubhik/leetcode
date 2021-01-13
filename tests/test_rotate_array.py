@@ -1,6 +1,6 @@
 import unittest
 
-from rotate_array import Solution, OfficialSolutionApproach4
+from rotate_array import OfficialSolutionApproach4, Solution
 
 
 class TestRotateArray(unittest.TestCase):

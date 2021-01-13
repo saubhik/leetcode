@@ -1,6 +1,6 @@
 import unittest
 
-from find_the_difference import Solution, OfficialSolution
+from find_the_difference import OfficialSolution, Solution
 
 
 class TestFindTheDifference(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from insert_into_a_binary_search_tree import Solution, TreeNode, OfficialSolution
+from insert_into_a_binary_search_tree import OfficialSolution, Solution, TreeNode
 
 
 class TestInsertIntoABinarySearchTree(unittest.TestCase):

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from add_two_numbers_ii import Solution, ListNode, OfficialSolution
+from add_two_numbers_ii import ListNode, OfficialSolution, Solution
 
 
 class TestAddTwoNumbersII(TestCase):

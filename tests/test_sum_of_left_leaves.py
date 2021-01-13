@@ -1,6 +1,6 @@
 import unittest
 
-from sum_of_left_leaves import TreeNode, Solution
+from sum_of_left_leaves import Solution, TreeNode
 
 
 class TestSumOfLeftLeaves(unittest.TestCase):

@@ -1,6 +1,5 @@
 from typing import List
 
-
 # class Solution:
 #     # [[0,4],[1,3],[2,4],[3,4],[1,2],[2,3]]
 #     # overlap lists -> O(n^2) time, O(n^2) space.

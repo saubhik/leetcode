@@ -1,6 +1,6 @@
 import unittest
 
-from delete_node_in_a_bst import TreeNode, Solution
+from delete_node_in_a_bst import Solution, TreeNode
 
 
 class TestDeleteNodeInABST(unittest.TestCase):

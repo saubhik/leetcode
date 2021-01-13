@@ -1,6 +1,6 @@
 import unittest
 
-from path_sum_iii import Solution, TreeNode, SolutionTwo
+from path_sum_iii import Solution, SolutionTwo, TreeNode
 
 
 class TestPathSumIII(unittest.TestCase):

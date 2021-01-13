@@ -1,6 +1,6 @@
 import unittest
 
-from linked_list_cycle_ii import Solution, ListNode
+from linked_list_cycle_ii import ListNode, Solution
 
 
 class TestLinkedListCycleII(unittest.TestCase):

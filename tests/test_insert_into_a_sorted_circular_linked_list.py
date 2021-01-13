@@ -1,6 +1,6 @@
 import unittest
 
-from insert_into_a_sorted_circular_linked_list import Solution, Node
+from insert_into_a_sorted_circular_linked_list import Node, Solution
 
 
 class TestInsertIntoASortedCircularLinkedList(unittest.TestCase):

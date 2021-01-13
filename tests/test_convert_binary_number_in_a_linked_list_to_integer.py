@@ -1,6 +1,6 @@
 import unittest
 
-from convert_binary_number_in_a_linked_list_to_integer import Solution, ListNode
+from convert_binary_number_in_a_linked_list_to_integer import ListNode, Solution
 
 
 class TestBinaryNumberInALinkedListToInteger(unittest.TestCase):

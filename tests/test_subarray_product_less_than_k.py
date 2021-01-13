@@ -1,6 +1,6 @@
 import unittest
 
-from subarray_product_less_than_k import Solution, OfficialSolution
+from subarray_product_less_than_k import OfficialSolution, Solution
 
 
 class TestSubarrayProductLessThanK(unittest.TestCase):

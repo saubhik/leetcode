@@ -1,6 +1,6 @@
 import unittest
 
-from closest_binary_search_tree import TreeNode, Solution
+from closest_binary_search_tree import Solution, TreeNode
 
 
 class TestBinarySearchTree(unittest.TestCase):

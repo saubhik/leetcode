@@ -1,6 +1,6 @@
 import unittest
 
-from complement_of_base_10_integer import Solution, OfficialSolution
+from complement_of_base_10_integer import OfficialSolution, Solution
 
 
 class TestComplementOfBase10Integer(unittest.TestCase):

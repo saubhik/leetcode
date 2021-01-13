@@ -1,6 +1,6 @@
 import unittest
 
-from power_of_four import Solution, SolutionTwo, SolutionThree, SolutionFour
+from power_of_four import Solution, SolutionFour, SolutionThree, SolutionTwo
 
 
 class TestPowerOfFour(unittest.TestCase):

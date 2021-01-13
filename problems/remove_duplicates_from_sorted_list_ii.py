@@ -1,5 +1,5 @@
-from unittest import TestCase
 from typing import Optional
+from unittest import TestCase
 
 
 # Definition for singly-linked list.

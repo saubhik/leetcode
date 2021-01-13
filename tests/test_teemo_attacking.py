@@ -1,6 +1,6 @@
 import unittest
 
-from teemo_attacking import Solution, OfficialSolution
+from teemo_attacking import OfficialSolution, Solution
 
 
 class TestTeemoAttacking(unittest.TestCase):

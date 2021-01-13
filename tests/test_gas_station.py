@@ -1,6 +1,6 @@
 import unittest
 
-from gas_station import Solution, OfficialSolution
+from gas_station import OfficialSolution, Solution
 
 
 class TestGasStation(unittest.TestCase):

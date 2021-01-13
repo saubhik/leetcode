@@ -1,6 +1,6 @@
 import unittest
 
-from largest_number import Solution, OfficialSolution
+from largest_number import OfficialSolution, Solution
 
 
 class TestLargestNumber(unittest.TestCase):

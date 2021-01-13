@@ -1,6 +1,6 @@
 import unittest
 
-from vertical_order_traversal_of_a_binary_tree import TreeNode, Solution
+from vertical_order_traversal_of_a_binary_tree import Solution, TreeNode
 
 
 class TestVerticalOrderTraversalOfABinaryTree(unittest.TestCase):

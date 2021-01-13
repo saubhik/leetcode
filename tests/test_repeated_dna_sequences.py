@@ -1,9 +1,9 @@
 import unittest
 
 from repeated_dna_sequences import (
-    Solution,
     OfficialSolutionApproach2,
     OfficialSolutionApproach3,
+    Solution,
 )
 
 

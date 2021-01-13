@@ -1,6 +1,6 @@
 import unittest
 
-from serialize_and_deserialize_bst import TreeNode, Codec, OfficialSolution
+from serialize_and_deserialize_bst import Codec, OfficialSolution, TreeNode
 
 
 class TestSerializeAndDeserializeBST(unittest.TestCase):

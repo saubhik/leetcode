@@ -1,6 +1,6 @@
 import unittest
 
-from rotate_list import Solution, ListNode
+from rotate_list import ListNode, Solution
 
 
 class TestRotateList(unittest.TestCase):

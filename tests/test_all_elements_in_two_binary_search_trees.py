@@ -1,6 +1,6 @@
 import unittest
 
-from all_elements_in_two_binary_search_trees import TreeNode, SolutionTwo, Solution
+from all_elements_in_two_binary_search_trees import Solution, SolutionTwo, TreeNode
 
 
 class TestAllElementsInTwoBinarySearchTrees(unittest.TestCase):

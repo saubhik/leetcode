@@ -1,7 +1,7 @@
 from typing import List
 from unittest import TestCase
 
-from merge_in_between_linked_lists import Solution, ListNode
+from merge_in_between_linked_lists import ListNode, Solution
 
 
 class TestMergeInBetweenLinkedLists(TestCase):

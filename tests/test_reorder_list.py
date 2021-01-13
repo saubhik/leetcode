@@ -1,6 +1,6 @@
 import unittest
 
-from reorder_list import Solution, ListNode
+from reorder_list import ListNode, Solution
 
 
 class TestReorderList(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from combination_sum_iii import Solution, SolutionTwo, SolutionThree, SolutionFour
+from combination_sum_iii import Solution, SolutionFour, SolutionThree, SolutionTwo
 
 
 class TestCombinationSumIII(unittest.TestCase):

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from the_kth_factor_of_n import Solution, SolutionTwo, SolutionThree
+from the_kth_factor_of_n import Solution, SolutionThree, SolutionTwo
 
 
 class TestTheKthFactorOfN(TestCase):

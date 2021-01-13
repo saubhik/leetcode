@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from populating_next_right_pointers_in_each_node import Solution, Node, OfficialSolution
+from populating_next_right_pointers_in_each_node import Node, OfficialSolution, Solution
 
 
 class TestPopulatingNextRightPointersInEachNode(TestCase):

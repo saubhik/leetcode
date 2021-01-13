@@ -1,6 +1,6 @@
 import unittest
 
-from sequential_digits import Solution, SolutionTwo, SolutionThree
+from sequential_digits import Solution, SolutionThree, SolutionTwo
 
 
 class TestSequentialDigits(unittest.TestCase):

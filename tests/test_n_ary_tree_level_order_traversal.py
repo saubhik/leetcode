@@ -1,6 +1,6 @@
 import unittest
 
-from n_ary_tree_level_order_traversal import Solution, Node
+from n_ary_tree_level_order_traversal import Node, Solution
 
 
 class TestLevelOrder(unittest.TestCase):

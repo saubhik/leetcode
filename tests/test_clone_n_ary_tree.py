@@ -1,6 +1,6 @@
 import unittest
 
-from clone_n_ary_tree import Solution, Node
+from clone_n_ary_tree import Node, Solution
 
 
 class TestCloneNAryTree(unittest.TestCase):

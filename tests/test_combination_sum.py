@@ -1,6 +1,6 @@
 import unittest
 
-from combination_sum import Solution, OfficialSolution
+from combination_sum import OfficialSolution, Solution
 
 
 class TestCombinationSum(unittest.TestCase):

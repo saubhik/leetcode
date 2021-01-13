@@ -1,6 +1,6 @@
 import unittest
 
-from k_diff_pairs_in_an_array import Solution, OfficialSolution
+from k_diff_pairs_in_an_array import OfficialSolution, Solution
 
 
 class TestKDiffPairsInAnArray(unittest.TestCase):

@@ -1,5 +1,5 @@
-from unittest import TestCase
 from collections import OrderedDict
+from unittest import TestCase
 
 
 class Solution:

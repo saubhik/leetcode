@@ -1,6 +1,6 @@
 import unittest
 
-from insertion_sort_list import Solution, ListNode
+from insertion_sort_list import ListNode, Solution
 
 
 class TestInsertionSortList(unittest.TestCase):

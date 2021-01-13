@@ -1,6 +1,6 @@
 import unittest
 
-from sum_of_root_to_leaf_binary_numbers import TreeNode, Solution
+from sum_of_root_to_leaf_binary_numbers import Solution, TreeNode
 
 
 class TestSumOfRootToLeafBinaryNumbers(unittest.TestCase):
