@@ -14,7 +14,8 @@ class Solution:
     #   where n is the number of elements in one list,
     #   and k is the number of lists.
     # Space Complexity: O(nk)
-    def mergeKLists(self, lists: List[ListNode]) -> Optional[ListNode]:
+    @staticmethod
+    def mergeKLists(lists: List[ListNode]) -> Optional[ListNode]:
         if not lists:
             return None
 
